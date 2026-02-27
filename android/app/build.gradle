@@ -22,7 +22,11 @@ android {
         versionName "1.0.0"
     }
     buildTypes {
-        release { signingConfig signingConfigs.debug; minifyEnabled false }
+    release {
+        minifyEnabled true
+        shrinkResources true
+        signingConfig signingConfigs.debug
+    }
     }
 }
 flutter { source '../..' }
