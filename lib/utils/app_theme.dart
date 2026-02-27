@@ -65,7 +65,7 @@ class AppTheme {
         letterSpacing: 0.3,
       ),
     ),
-    cardTheme: CardThemeData(
+    cardTheme: const CardTheme(
       color: AppColors.surfaceCard,
       elevation: 0,
       shape: RoundedRectangleBorder(
